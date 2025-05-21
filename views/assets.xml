@@ -1,0 +1,7 @@
+<odoo>
+    <template id="assets_frontend" inherit_id="web.assets_frontend" name="Matrix Survey CSS">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet/scss" type="text/scss" href="/matrix_survey_theme/static/src/scss/matrix_survey_frontend.scss"/>
+        </xpath>
+    </template>
+</odoo>
